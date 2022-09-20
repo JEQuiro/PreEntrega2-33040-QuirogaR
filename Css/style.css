@@ -1,3 +1,11 @@
 .bg-propio {
     background-color: black;
 }
+
+.container-fluid {
+    padding: 0px;
+}
+
+.barra-nav {
+    padding: 20px !important;
+}
