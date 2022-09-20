@@ -1,12 +1,132 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Untanuts</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    
-</body>
+  <nav class="navbar navbar-dark navbar-expand-xl bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Untanuts</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Packs</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Preguntas Frecuentes</a></li>
+              <li><a class="dropdown-item" href="#">Untalabs</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Contacto</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+      <div class="container">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./img/Banner_1.jpg" class="d-flex w-100" alt="Banner_Home">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/Banner_2.jpg" class="d-block w-100" alt="armatupack">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </div>
+
+      <div class="container mt-4">
+        <div class="card" style="width: 18rem;">
+            <img src="./img/cacao-c_1024x1024.webp" class="card-img-top" alt="cacao">
+            <div class="card-body">
+              <h5 class="card-title">INMUNONUTS CACAO C</h5>
+              <p class="card-text"> Cacao C de la línea Inmunonuts, es un cremoso Untable de textura liviana elaborado a partir de frutos secos, sin maní. Creamos este delicioso untable con sabor chocolate y naranja .  Contiene altos niveles de vitaminas y minerales.</p>
+            </div>
+          </div>
+      </div>
+
+      <div class="container mt-4">
+        <div class="card" style="width: 18rem;">
+            <img src="./img/ciboulette-e_1024x1024.webp" class="card-img-top" alt="ciboulette">
+            <div class="card-body">
+              <h5 class="card-title">INMUNONUTS CIBOULETTE</h5>
+              <p class="card-text">Ciboulette E de la línea  Inmunonuts, es un Dip untable de textura liviana, elaborado a partir de frutos secos, sin maní. Creamos este delicioso untable de sabor suave a Ciboulette que refuerza nuestro sistema inmune sin tener que adicionar suplementos, solo con el poder intrínseco de los frutos secos. Contiene altos niveles de vitaminas y minerales fundamentales para nuestro sistema inmune.</p>
+            </div>
+          </div>
+      </div>
+
+      <div class="container mt-4">
+        <div class="card" style="width: 18rem;">
+            <img src="./img/mousstela-untanuts-chocolate_1024x1024.webp" class="card-img-top" alt="moustella">
+            <div class="card-body">
+              <h5 class="card-title">MOUSTELLA LÍNEA</h5>
+              <p class="card-text">Moustella de la línea Gourmet & Wellness , es un untable de textura tipo mousse elaborado a partir de frutos secos, sin maní. Es un irresistible mousse suave con el clásico sabor a avellanas y cacao, pero sin azúcares añadidos ni lácteos, te sorprenderás de su delicioso sabor.</p>
+            </div>
+          </div>
+      </div>
+                
+        <!-- col 12 -->
+      <div class="container text-center mt-5">
+        <div class="row">
+         <div class="col-12 col-lg-6 bg-info bg-gradient p-3">
+            <p>LLEVAR UNTANUTS A TU MESA</p>
+            <p>Nuestra inspiración es crear alimentos complejos y funcionales nutricionalmente. Nuestro esfuerzo es tecnológico para poder integrar la gran variedad de Tree Nuts que existen en recetas que puedan penetrar en el mercado y encuentre su lugar en la mesa diaria de las personas.
+              UNTANUTS quiere diversificar y llenar tu día a día con la variedad de productos que la tierra tiene para ofrecernos.</p>
+          </div>
+          <div class="col bg-danger p-3">
+            <p>DESTERRAR LA MAYOR CANTIDAD DE PRODUCTOS</p>
+            <p>Nuestra misión es generar un cambio cultural en lo que comemos, sustituir los productos altamente procesados como embutidos y azúcar refinada.
+              En UNTANUTS encontrarás la textura y el sabor que estás acostumbrado, pero con un alimento Nuts Based, ¡funcional, natural y nutritivo!</p>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- class container -->
+
+      <div class="container bg-info mt-5 py-5 text-center">
+        <h2>Untanuts</h2>
+      </div>
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+ </body>
 </html>
